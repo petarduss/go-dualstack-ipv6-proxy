@@ -1,0 +1,26 @@
+[server]
+listen_port = "8080"
+listen_port_https = "9999"
+max_connections = 10000
+idle_timeout_seconds = 90
+read_timeout_seconds = 30
+
+[ssl]
+enabled = true
+cert_path = "/root/ipv6-proxy/cert/cert.pem"
+key_path = "/root/ipv6-proxy/cert/key.pem"
+
+[authorization]
+allowed_ips = [
+    "*"
+]
+
+[ipv6_pools]
+subnets = [
+    "2a14:7584:44b3:0::/118"
+]
+addresses_per_subnet = 1000
+
+exclude = [
+    "::1"
+]
