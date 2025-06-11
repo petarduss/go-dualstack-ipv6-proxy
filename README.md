@@ -1,4 +1,3 @@
-```markdown
 # 🌐 go-dualstack-ipv6-proxy
 
 **go-dualstack-ipv6-proxy** is a high-performance HTTP/HTTPS proxy server written in Go, designed to handle incoming IPv4 and IPv6 requests and forward them through **randomized IPv6 addresses** from a user-defined pool. This makes it especially useful for applications that benefit from IP rotation over IPv6 networks.
@@ -104,5 +103,3 @@ Pull requests are welcome! If you encounter issues or have suggestions, feel fre
 ---
 
 Made with 💻 by petarduss
-
-```
